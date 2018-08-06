@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SalaryNegotiator />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SalaryNegotiator from './components/SalaryNegotiator.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    SalaryNegotiator
   }
 }
 </script>
